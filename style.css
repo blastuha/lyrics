@@ -1,55 +1,39 @@
-.header {
+body {
+    background-color: rgb(94, 4, 71);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
     color:rgb(223, 188, 214);
     background-color: black;
     text-align: center;
-    margin: 0;
-    font: bold calc(1em + 2 * (80vw - 100px) / 100) 'Dancing Script', cursive, fantasy;
-    margin: -70px;
+    font: bold 3em 'Dancing Script', cursive, fantasy;
+    padding: 20px;
+    border-bottom: 2px dashed rgb(223, 188, 214);
 }   
-.body {
-    background-color: rgb(94, 4, 71);
-    margin: -20px;
-    font-family: 'Times New Roman', Times, serif;
+.song {
+    margin: 30px;
+    background-color: white;
+    margin-bottom: 60px;
 }
 .songname {
-    font-size:25px;
-    text-align: center;
-    text-shadow: rgb(252, 249, 251) 0 0 .5em;
-    font: bold; /* - почему он не меняется, */
-    margin: 5%;
-
+    font-size:24px;
+    text-align: left;
+    text-shadow: rgb(156, 25, 112) 0 0 .5em;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 40px;
 }
-.song1 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -70px;
-    width: 600px;
-    height: 230px;
-    font-size:25px;
-    text-align: center;
-    overflow-y: scroll;
-    margin-bottom: 100px;
+.text {
+    font-size:18px;
+    text-align: left;
     background-color: rgb(0, 0, 0);
     color:rgb(223, 188, 214);
-    border: 2px solid;
-    
-
+    border: 4px solid;
+    padding: 10px;
+    padding-left: 40px;
 }
-.songname2 {
-    font-size:25px;
-    text-align: center;
+.line:hover {
     text-shadow: rgb(252, 249, 251) 0 0 .5em;
-}
-.song2 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    height: 230px;
-    font-size:25px;
-    text-align: center;
-    overflow-y: scroll;
-    margin-bottom: 100px;
-    background-color: rgb(0, 0, 0);
-    color:rgb(223, 188, 214);
-    border: 2px solid;
+    /* cursor: pointer; */
 }
